@@ -33,7 +33,9 @@ function App() {
     <div className="App">
       {products.map((eachProduct) => {
         // console.log(eachProduct)
+        <h1>Product Card</h1>
         return (
+          
           <ProductCard
             key={eachProduct.id}
             title={eachProduct.title}
