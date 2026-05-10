@@ -9,7 +9,10 @@ import ProductCard from './componenets/ProductCard';
 
 function App() {
 
-
+<header>
+  <h1
+>Product Card</h1>
+</header>
   const [products, setproducts] = useState([]);
 
   const getproducts = async () => {
@@ -33,7 +36,6 @@ function App() {
     <div className="App">
       {products.map((eachProduct) => {
         // console.log(eachProduct)
-        <h1>Product Card</h1>
         return (
           
           <ProductCard
