@@ -9,6 +9,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1{
+    display: flex;
+    justify-content: center;
+    
+}
+
 
 .App{
     display: flex;

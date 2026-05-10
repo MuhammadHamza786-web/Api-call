@@ -1,7 +1,7 @@
 
 
 import React from 'react'
-
+<h1>Product Card</h1>
 const ProductCard = ({ title, images, price, category }) => {
   // const eachproducts = props.eachproducts
   return (
